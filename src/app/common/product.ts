@@ -1,4 +1,7 @@
+import { logging } from 'protractor';
+
 export class Product {
+    id: string;
     sku: string;
     name: string;
     description: string;
